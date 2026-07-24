@@ -14,6 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LabVIEW" Type="Folder">
 			<Item Name="conveyor-machine" Type="Folder">
+				<Item Name="colour-radio-buton.ctl" Type="VI" URL="../colour-radio-buton.ctl"/>
 				<Item Name="conveyor-product.vi" Type="VI" URL="../conveyor-product.vi"/>
 			</Item>
 			<Item Name="Main" Type="Folder">
