@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">26.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -23,6 +24,8 @@
 				<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			</Item>
 		</Item>
+		<Item Name="start btton.ctl" Type="VI" URL="../Control-buttons/start btton.ctl"/>
+		<Item Name="Stop button.ctl" Type="VI" URL="../Control-buttons/Stop button.ctl"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
