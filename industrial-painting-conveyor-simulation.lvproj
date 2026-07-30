@@ -23,9 +23,12 @@
 				<Item Name="conveyorstatemachine.ctl" Type="VI" URL="../conveyorstatemachine.ctl"/>
 				<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			</Item>
+			<Item Name="Control Buttons" Type="Folder">
+				<Item Name="pausebuttonnew.ctl" Type="VI" URL="../Control-buttons/pausebuttonnew.ctl"/>
+				<Item Name="startbuttonnew.ctl" Type="VI" URL="../Control-buttons/startbuttonnew.ctl"/>
+				<Item Name="stopbuttonnew.ctl" Type="VI" URL="../Control-buttons/stopbuttonnew.ctl"/>
+			</Item>
 		</Item>
-		<Item Name="start btton.ctl" Type="VI" URL="../Control-buttons/start btton.ctl"/>
-		<Item Name="Stop button.ctl" Type="VI" URL="../Control-buttons/Stop button.ctl"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
