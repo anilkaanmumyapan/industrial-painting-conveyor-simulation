@@ -28,6 +28,9 @@
 				<Item Name="startbuttonnew.ctl" Type="VI" URL="../Control-buttons/startbuttonnew.ctl"/>
 				<Item Name="stopbuttonnew.ctl" Type="VI" URL="../Control-buttons/stopbuttonnew.ctl"/>
 			</Item>
+			<Item Name="Sendtoserver" Type="Folder">
+				<Item Name="Conveyor_SendToServer.vi" Type="VI" URL="../Conveyor_SendToServer.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
